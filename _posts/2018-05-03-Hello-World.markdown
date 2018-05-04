@@ -32,7 +32,7 @@ Jekyll的安装很简单。Mac OS X自带了Ruby，直接在终端下执行`gem 
 
 接下来直接终端执行`jekyll new myblog`，jekyll会自动创建一个内容符合博客网站目录结构的myblog目录。在生成的blog目录下，执行`jekyll serve`，即可在本地浏览器访问`http://localhost:4000`进行预览。
 
-如果中途遇到缺少依赖的ERROR，使用`gem install [pakage]`安装即可。
+如果中途遇到缺少依赖的ERROR，使用`gem install [package]`安装即可。
 
 最后将myblog目录下的内容push到之前创建的github仓库中，便可以访问到博客内容。
 
@@ -40,7 +40,9 @@ Jekyll的安装很简单。Mac OS X自带了Ruby，直接在终端下执行`gem 
 
 GitHub Pages给博客提供的默认域名即为仓库名`username.github.io`。如果需要自定义域名，可以在项目根目录下创建`CNAME`文件，输入不带协议的自定义域名即可。
 
-GitHub Pages从5月1日起支持为自定义域名支持HTTPS。新的IP地址不仅支持HTTPS，而且可以通过CDN加快访问速度，同时还能防范DDoS攻击。
+我是在[GoDaddy](https://sg.godaddy.com/zh)购买的域名，原本在万网上发现.com .cn .net常用域名都已经被注册了（意料之中），后来发现.me域名不错，用在个人博客恰到好处，而万网并不提供.me域名的购买，于是最终在GoDaddy花了￥24购买了首年的huangxiao.me域名。
+
+GitHub Pages从5月1日起可以为自定义域名支持HTTPS。新的IP地址不仅支持HTTPS，而且可以通过CDN加快访问速度，同时还能防范DDoS攻击。
 
 - 如果自定义域名使用CNAME或ALIAS记录，那么仅需在仓库设置中勾选`Enforce HTTPS`选项即可。
 - 如果自定义域名使用A记录，则需要设置A记录将自定义域名指向以下IP：
@@ -49,7 +51,7 @@ GitHub Pages从5月1日起支持为自定义域名支持HTTPS。新的IP地址�
 	- 185.199.110.153
 	- 185.199.111.153
 
-具体教程可见：[https://help.github.com/articles/setting-up-an-apex-domain/]()
+[具体教程链接](https://help.github.com/articles/setting-up-an-apex-domain/)
 
 ### 模版 ###
 
