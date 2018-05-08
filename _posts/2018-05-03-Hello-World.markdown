@@ -24,17 +24,27 @@ title:  "Hello World"
 
 ### 创建仓库 ###
 
-话不多说，我先改掉了GitHub的用户名，按username.github.io的命名要求新建了仓库。配置好了[Jekyll](https://www.jekyll.com.cn/)，并学习了下基本的用法，用Jekyll创建了自己的博客并push到了我的仓库中。
+话不多说，我先改掉了GitHub的用户名（原来的用户名有点蠢），按username.github.io的命名要求新建了仓库。配置好了[Jekyll](https://www.jekyll.com.cn/)，并学习了下基本的用法，用Jekyll创建了自己的博客并push到了我的仓库中。
 
-#### Jekyll 使用 ####
+#### Jekyll ####
 
-Jekyll的安装很简单。Mac OS X自带了Ruby，直接在终端下执行`gem install jekyll`即可完成安装。
+Jekyll的安装很简单。首先需要在Mac上安装Xcode和Command-Line Tools。Xcode可以直接在App Store搜索下载，下载完成后在终端执行`xcode-select --install`后根据提示即可安装Command-Line Tools。
 
-接下来直接终端执行`jekyll new myblog`，jekyll会自动创建一个内容符合博客网站目录结构的myblog目录。在生成的blog目录下，执行`jekyll serve`，即可在本地浏览器访问`http://localhost:4000`进行预览。
+Mac OS X自带了Ruby，直接在终端下执行`gem install jekyll`即可完成安装。
 
-如果中途遇到缺少依赖的ERROR，使用`gem install [package]`安装即可。
+如果系统自带的Ruby版本较低，安装时可能会提示版本较低，这时需要安装rvm，使用rvm安装和管理新版本Ruby。这个[知乎提问](https://www.zhihu.com/question/66800711)的回答讲解比较具体。
+
+接下来直接终端执行`jekyll new myblog`，jekyll会自动创建一个内容符合博客网站目录结构的myblog目录。在生成的myblog目录下，执行`jekyll serve`，即可在本地浏览器访问`http://localhost:4000`进行预览。
+
+如果中途遇到缺少依赖的提示，使用`gem install [package]`安装即可。
 
 最后将myblog目录下的内容push到之前创建的github仓库中，便可以访问到博客内容。
+
+#### 模版 ####
+
+Jekyll有诸多主题模版，Github提供了一些可选的主题，可以在仓库设置中选择。除此之外<http://jekyllthemes.org/> 也提供了大量主题可供选用。
+
+目前我还是使用默认的Minima主题，也许以后有空的时候会摸索一下换个好看一点的。
 
 ### 域名 ###
 
@@ -52,12 +62,6 @@ GitHub Pages从5月1日起可以为自定义域名支持HTTPS。新的IP地址�
 	- 185.199.111.153
 
 [具体教程链接](https://help.github.com/articles/setting-up-an-apex-domain/)
-
-### 模版 ###
-
-Jekyll有诸多主题模版，Github提供了一些可选的主题，可以在仓库设置中选择。除此之外[http://jekyllthemes.org/]() 也提供了大量主题可供选用。
-
-我目前还是使用的GitHub提供的默认Minima主题，也许以后有空的时候会摸索一下换个好看一点的。
 
 ## Hello World ##
 
