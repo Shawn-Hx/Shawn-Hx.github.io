@@ -42,9 +42,9 @@ Mac OS X自带了Ruby，直接在终端下执行`gem install jekyll`即可完成
 
 #### 模版 ####
 
-Jekyll有诸多主题模版，Github提供了一些可选的主题，可以在仓库设置中选择。除此之外<http://jekyllthemes.org/> 也提供了大量主题可供选用。
+Jekyll有诸多主题模版，Github提供了一些可选的主题，可以在仓库设置中选择。除此之外，[这里](http://jekyllthemes.org)也提供了大量主题可供选用。
 
-目前我还是使用默认的Minima主题，也许以后有空的时候会摸索一下换个好看一点的。
+目前我使用的是默认的[minima](https://github.com/jekyll/minima)主题，也许以后有空的时候会摸索一下换个好看一点的。
 
 ### 域名 ###
 
