@@ -18,9 +18,9 @@ text_color_theme: default #eg: default | dark | forest | ocean | chocolate | ora
 # url:  #the base hostname & protocol for your site e.g. https://www.someone.com
 
 baseurl: /
-title: Someone's blog
+title: This is title
 description: > #this means to ignore newlines until "nav_lists:"
-  Someone's Blog
+  This is description
 
 nav_lists:
   - titles:
@@ -43,7 +43,7 @@ repository: someone/someone.github.io
 repository_tree: master
 
 ## Language & timezone ##
-# lang: en #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
+lang: en #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
 timezone: Asia/Shanghai #see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 ## Author & social ##
