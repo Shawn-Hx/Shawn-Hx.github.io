@@ -15,7 +15,7 @@ text_color_theme: default #eg: default | dark | forest | ocean | chocolate | ora
 ## Base settings ##
 # url:  #the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /
-title: 黄潇的博客
+title: Shawn Wong's Blog
 description: > #this means to ignore newlines until "nav_lists:"
   Shawn Wong's Blog
 
@@ -38,7 +38,7 @@ repository: Shawn-Hx/Shawn-Hx.github.io #e.g. someone/someone.github.io
 repository_tree: master #e.g. master
 
 ## Language & timezone ##
-lang: zh #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
+lang: en #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
 timezone: Asia/Shanghai #see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 ## Author & social ##
@@ -46,7 +46,7 @@ author:
   name: 黄潇
   email: hx0698@gmail.com #your Email address e.g. someone@site.com
   # facebook:  #your Facebook username
-  twitter: shawn-hx #your Twitter username
+  twitter: shawn_hx #your Twitter username
   github: Shawn-Hx #your GitHub username
   # googleplus:  #your Google+ username
   weibo: 2402769827 #your Weibo username

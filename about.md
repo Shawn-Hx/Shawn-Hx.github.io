@@ -8,4 +8,21 @@ titles:
 key: page-about
 ---
 
-Welcome to my blog !
+## 基本信息
+
+- 黄潇
+- 1997.10.14
+- 本科：南京大学 软件学院
+
+## 技能
+
+- 语言：**Java**, Python, C/C++
+- Web框架：Spring / Spring MVC / Hibernate / Spring Boot
+- 数据库：MySQL / SQLite
+- 版本控制：Git
+- 其它：Docker
+
+## 爱好
+
+- 阅读
+- Dota2 云玩家
