@@ -8,13 +8,13 @@ titles:
 key: page-about
 ---
 
-## 基本信息
+## Basic
 
 - 黄潇
 - 1997.10.14
 - 本科：南京大学 软件学院
 
-## 技能
+## Skills
 
 - 语言：**Java**, Python, C/C++
 - Web框架：Spring / Spring MVC / Hibernate / Spring Boot
@@ -22,7 +22,7 @@ key: page-about
 - 版本控制：Git
 - 其它：Docker
 
-## 爱好
+## Hobbies
 
 - 阅读
 - Dota2 云玩家
