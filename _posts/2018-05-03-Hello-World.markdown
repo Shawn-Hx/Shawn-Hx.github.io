@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World"
 tags:
-- blog
+- Original
 ---
 
 ## 关于博客 ##
@@ -24,7 +24,7 @@ tags:
 [coolshell]:	https://coolshell.cn/
 [wangying]:		http://www.yinwang.org/
 
-直到前一阵子听说，[GitHub Pages](https://pages.github.com/)可以免费搭建个人博客，绑定域名，甚至能免费开启https，我这才又重新想起了写博客的事。几乎每天都在用的GitHub有这么方便的工具，我居然才知道，确实有点孤陋寡闻了。恰好最近在微信读书上看书，苦于看过的书前面看后面忘，把博客作为读书总结归纳的地方再好不过。
+直到前一阵子听说，[GitHub Pages](https://pages.github.com/)可以免费搭建个人博客，绑定域名，甚至能免费开启https，我这才又重新想起了写博客的事。几乎每天都在用的GitHub有这么方便的工具，我居然现在才知道，确实有点孤陋寡闻了。恰好最近在微信读书上看书，苦于看书时前面看后面忘，把博客作为读书总结归纳的地方再好不过。
 
 ### 创建仓库 ###
 
@@ -32,11 +32,13 @@ tags:
 
 #### Jekyll ####
 
+Jekyll是一个简单的Blog生成工具，只生成**静态网页**，但可以配合第三方服务。Jekyll可以免费部署在Github上。
+
 Jekyll的安装很简单。首先需要在Mac上安装Xcode和Command-Line Tools。Xcode可以直接在App Store搜索下载，下载完成后在终端执行`xcode-select --install`后根据提示即可安装Command-Line Tools。
 
 Mac OS X自带了Ruby，直接在终端下执行`gem install jekyll`即可完成安装。
 
-如果系统自带的Ruby版本较低，安装时可能会提示版本较低，这时需要安装rvm，使用rvm安装和管理新版本Ruby。这个[知乎提问](https://www.zhihu.com/question/66800711)的回答讲解比较具体。
+如果系统自带的Ruby版本较低，安装时可能会提示出错，这时需要安装rvm，使用rvm安装和管理新版本Ruby。这个[知乎提问](https://www.zhihu.com/question/66800711)的回答讲解比较具体。
 
 接下来直接终端执行`jekyll new myblog`，jekyll会自动创建一个内容符合博客网站目录结构的myblog目录。在生成的myblog目录下，执行`jekyll serve`，即可在本地浏览器访问`http://localhost:4000`进行预览。
 
@@ -72,4 +74,3 @@ GitHub Pages从5月1日起可以为自定义域名支持HTTPS。新的IP地址�
 于是便有了这一篇博客，以上记录的过程前前后后经过了几个星期的时间。因为太久不写文章，所以语言组织和表达能力还需要多加练习。
 
 无论如何，总算是有了一个方便的写博客的地方，也有了第一篇博客文章。希望自己能够不断提高，写出和上面提到的dalao们一样高质量的博客文章。
-
