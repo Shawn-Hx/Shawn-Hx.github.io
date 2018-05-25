@@ -25,4 +25,5 @@ key: page-about
 ## Hobbies
 
 - 阅读
+- 电影
 - Dota2 云玩家
