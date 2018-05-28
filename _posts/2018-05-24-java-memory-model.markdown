@@ -181,7 +181,7 @@ public class Singleton {
 
 **`volatile`**能禁止指令重排序是因为CPU在指令重排时需要能正确处理指令依赖情况以保障程序能得出正确的执行结果，而`lock addl $0x0, (%esp)`指令把修改同步到内存时，意味着所有之前的操作都已经执行完成，这样便形成了“指令重排序无法越过内存屏障”的效果。
 
-### volatile变量的特殊规则 ###
+### volatile 变量的特殊规则 ###
 假定T表示一个线程，V和W分别表示两个volatile类型变量，那么在进行read、load、use、assign、store和write操作时需要满足如下规则：
 
 - 只有当线程T对变量V执行的前一个动作是load的时候，线程T才能对变量V执行use动作；并且，只有当线程T对变量V执行的后一个动作是use的时候，线程T才能对变量V执行load动作。
@@ -190,7 +190,7 @@ public class Singleton {
 
 - 假定动作A是线程T对变量V实施的use或assign动作，假定动作F是和动作A相关联的load或store动作，假定动作P是和动作F相应的对变量V的read或write动作；类似地，假定动作B是线程T对变量W实施的use或assign动作，假定动作G是和动作B相关联的load或store动作，假定动作Q是和动作G相应的对变量W的read和write操作，如果A先于B，那么P先于Q。
 
-### volatile使用总结 ###
+### volatile 使用总结 ###
 
 **`volatile`**关键字的**运用场景**：
 
