@@ -245,7 +245,7 @@ Java内存模型通过在变量修改后将新值同步回主内存，在变量�
 
 - **volatile** 实现可见性
 
-	规则：[volatile变量的特殊规则]({{ post.url }}#volatile变量的特殊规则)
+	规则：见 [volatile变量的特殊规则]({{ post.url }}#volatile-变量的特殊规则)
 - **synchronized** 实现可见性
 
 	规则：对一个变量执行unlock操作之前，必须先把此对象同步回主内存中（执行store、write操作）。
