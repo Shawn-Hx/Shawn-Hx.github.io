@@ -69,7 +69,7 @@ public Node removeDuplicate(Node head) {
 
 最后面试官问了LRU Cache，让我简单实现一个LRU Cache，我表示对LRU算法有了解，但是不记得具体实现。面试官让我按自己的理解写，我先说了自己的思路，一开始想的使用队列（说完意识到不对），面试官提示用LinkedList还是ArrayList，由于涉及到频繁的删除与插入操作，当然选择了LinkedList，接下来面试官问LinkedList查找的效率，O(n)明显比不上ArrayList，我想了之后说可以用Map来简化查找过程，key是Cache中的内容，value是指向LinkedList中元素的指针。面试官表示可以，之后也没让我再写代码。
 
-后来发现本题是LeetCode上的原题[LRU-Cache](https://leetcode-cn.com/problems/lru-cache)，可以使插入和查找时间均为$O(1)$，思路很巧妙。
+后来发现本题是LeetCode上的原题[LRU-Cache](https://leetcode-cn.com/problems/lru-cache)，可以使插入和查找时间均为O(1)，思路很巧妙。
 
 ### 线上面试总结 ###
 
