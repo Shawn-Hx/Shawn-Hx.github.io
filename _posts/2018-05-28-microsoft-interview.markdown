@@ -1,5 +1,4 @@
 ---
-layout:	post
 title: 2018微软预科生面试经历
 tags:
 - Interview

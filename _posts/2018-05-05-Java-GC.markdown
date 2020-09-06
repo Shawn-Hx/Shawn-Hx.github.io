@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Java 垃圾回收
 tags:
 - JVM

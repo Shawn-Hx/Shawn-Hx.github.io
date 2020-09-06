@@ -1,5 +1,4 @@
 ---
-layout:	post
 title: 2018清华软院推免经历
 tags:
 - Interview

@@ -1,5 +1,4 @@
 ---
-layout:	post
 title:	虚拟机类加载机制
 tags:
 - JVM
