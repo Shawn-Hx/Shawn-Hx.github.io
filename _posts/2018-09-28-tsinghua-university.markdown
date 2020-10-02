@@ -1,5 +1,6 @@
 ---
 title: 2018清华软院推免经历
+key: tsinghua-university
 tags:
 - Interview
 - Original

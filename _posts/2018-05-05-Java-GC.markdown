@@ -1,5 +1,6 @@
 ---
 title:  Java 垃圾回收
+key: java-gc
 tags:
 - JVM
 - Notes

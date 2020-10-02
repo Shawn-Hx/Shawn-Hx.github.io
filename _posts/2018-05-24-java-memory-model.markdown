@@ -1,5 +1,6 @@
 ---
 title: Java 内存模型
+key: java-memory-model
 tags:
 - JVM
 - Notes

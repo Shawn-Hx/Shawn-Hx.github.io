@@ -1,5 +1,6 @@
 ---
 title:	虚拟机类加载机制
+key: class-loader
 tags:
 - JVM
 - Notes

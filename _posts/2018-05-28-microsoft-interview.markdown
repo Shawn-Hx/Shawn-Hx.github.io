@@ -1,5 +1,6 @@
 ---
 title: 2018微软预科生面试经历
+key: microsoft-interview
 tags:
 - Interview
 - Original
