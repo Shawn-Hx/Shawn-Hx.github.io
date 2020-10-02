@@ -1,29 +1,79 @@
 ---
-layout: page
+layout: article
 titles:
-  en: About
-  zh: 关于
-  zh-Hans: 关于
-  zh-Hant: 關於
+  # @start locale config
+  en      : &EN       About
+  en-GB   : *EN
+  en-US   : *EN
+  en-CA   : *EN
+  en-AU   : *EN
+  zh-Hans : &ZH_HANS  关于
+  zh      : *ZH_HANS
+  zh-CN   : *ZH_HANS
+  zh-SG   : *ZH_HANS
+  zh-Hant : &ZH_HANT  關於
+  zh-TW   : *ZH_HANT
+  zh-HK   : *ZH_HANT
+  ko      : &KO       소개
+  ko-KR   : *KO
+  fr      : &FR       À propos
+  fr-BE   : *FR
+  fr-CA   : *FR
+  fr-CH   : *FR
+  fr-FR   : *FR
+  fr-LU   : *FR
+  # @end locale config
 key: page-about
 ---
 
 ## Basic
 
-- 黄潇
+- 黄潇 （Shawn Huang）
+
 - 1997.10.14
-- 本科：南京大学 软件学院
+
+
+
+## Education
+
+**2015 - 2019**	
+
+南京大学 软件学院 学士
+
+**2019 - now**	
+
+清华大学 软件学院 工程硕士
+
+
+
+## Experience
+
+**2018.7 - 2018.10**
+
+实习于 苏州微软工程院
+
+
+
+Apache Flink Contributor
+
+目前专注于流处理资源调度优化。
+
+
 
 ## Skills
 
-- 语言：**Java**, Python, C/C++
-- Web框架：Spring / Spring MVC / Hibernate / Spring Boot
-- 数据库：MySQL / SQLite
-- 版本控制：Git
-- 其它：Docker
+- Language：**Java**, Python, C
+- Framework：Flink, Spring Boot
+- Database：MySQL, SQLite
+- VCS：Git
+- Tools：Vim, zsh, Docker
+- OS：Arch Linux
+
+
 
 ## Hobbies
 
 - 阅读
 - 电影
+- 魔方
 - Dota2 云玩家
