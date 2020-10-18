@@ -156,15 +156,14 @@ comment:
     type: gitalk
     client_id: 963b6693dc6dc4916c04    
     client_secret: 26352243ac59e8ea716b892063e176915c3e576c
-    repo: Shawn-Hx/Shawn-Hx.github.io
+    repo: Shawn-Hx.github.io
     owner: Shawn-Hx
     admin:
         - Shawn-Hx
-    per_page: 20                    # optional
+    per_page: 10                    # optional
     distraction_free_mode: false    # optional
     pager_direction: last           # optional
     create_issue_manually: false    # optional
-    proxy:                          # optional
     flip_move_options:              # optional
     enable_hotkey: true             # optional
     language: zh-CN                 # optional
@@ -328,7 +327,7 @@ plugins:
         tracking_id: 
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
