@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Shawn's Blog
 subtitle: ''
 description: ''
 keywords:
@@ -103,4 +103,6 @@ theme: icarus
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/Shawn-Hx/Shawn-Hx.github.io
+  branch: master
