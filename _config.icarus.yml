@@ -242,12 +242,15 @@ widgets:
             Github:
                 icon: fab fa-github
                 url: 'https://github.com/Shawn-Hx'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'https://facebook.com'
+            Weibo:
+                icon: fab fa-weibo
+                url: 'https://weibo.com/2402769827'
+            #Facebook:
+            #    icon: fab fa-facebook
+            #    url: 'https://facebook.com'
             Twitter:
                 icon: fab fa-twitter
-                url: 'https://twitter.com'
+                url: 'https://twitter.com/shawn_hx'
             #Dribbble:
                 #icon: fab fa-dribbble
                 #url: 'https://dribbble.com'
