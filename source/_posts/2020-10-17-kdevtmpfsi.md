@@ -42,7 +42,7 @@ Pass --all to see loaded but inactive timers, too.
 
 ### 守护进程
 
-由此可以怀疑是有守护进程在不断重启 kdevtmpfsi 进程。使用 `systemctl status pid` （pid 为 kdevtmpfsi 进程id）查看后发现，**/var/tmp/kinsing** 与 **/tmp/kdevtmpfsi** 进程处于同一 CGroup 中。
+由此可以怀疑是有守护进程在不断重启 *kdevtmpfsi* 进程。使用 `systemctl status pid` （pid 为 kdevtmpfsi 进程id）查看后发现， */var/tmp/kinsing* 与 */tmp/kdevtmpfsi* 进程处于同一 CGroup 中。
 
 分别使用  `kill -9` 杀死这两个进程并删除系统中对应的文件，之后 *kdevtmpfsi* 进程就不会再次出现了。
 

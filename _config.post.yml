@@ -2,7 +2,7 @@ sidebar:
     # Left sidebar configurations
     left:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: true
+        sticky: false
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
@@ -15,9 +15,14 @@ widgets:
         type: toc
         # Whether to show the index of each heading
         index: true
+    # Archives widget configurations
     -
-        type: recent_posts
-        position: left
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: right
+        type: archives
+    #-
+    #    type: recent_posts
+    #    position: right
     -
         type: tags
-        position: left
+        position: right
