@@ -54,7 +54,7 @@ Pass --all to see loaded but inactive timers, too.
 
 通过查看 Flink standalonesession 的 log，发现的确在凌晨有记录一些异常信息：
 
-```java
+{% codeblock "flink-huangxiao-standalonesession-0-huangxiao-lab.log" lang:java >folded %}
 2020-10-17 00:09:40,372 WARN  org.apache.flink.runtime.dispatcher.DispatcherRestEndpoint   [] - Unhandled exception
 java.io.IOException: Connection reset by peer
 	at sun.nio.ch.FileDispatcherImpl.read0(Native Method) ~[?:?]
@@ -153,7 +153,7 @@ java.io.IOException: Connection reset by peer
 	at org.apache.flink.shaded.netty4.io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [flink-dist_2.11-1.11.2.jar:1.11.2]
 	at org.apache.flink.shaded.netty4.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [flink-dist_2.11-1.11.2.jar:1.11.2]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
-```
+{% endcodeblock %}
 
 所以说，不管是在个人 PC 还是服务器上部署 Flink 集群后，都是很有可能受到攻击的，需要提前做好准备和防御的措施。
 
