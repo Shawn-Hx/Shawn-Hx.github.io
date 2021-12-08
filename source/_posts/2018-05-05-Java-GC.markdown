@@ -1,9 +1,10 @@
 ---
 title:  Java 垃圾回收
 key: java-gc
+categories:
+- [读书笔记, 深入理解Java虚拟机]
 tags:
 - JVM
-- Notes
 toc: true
 ---
 

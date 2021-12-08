@@ -1,6 +1,9 @@
 ---
 title: 《Streaming Systems》Preface 前言
+thumbnail: /img/streaming-systems/cover.png
 key: streaming-systems-preface
+categories:
+- [读书笔记, Streaming Systems]
 tags:
 - Streaming Systems
 toc: true

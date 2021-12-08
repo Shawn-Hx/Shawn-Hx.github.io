@@ -1,9 +1,10 @@
 ---
 title: Java 内存模型
 key: java-memory-model
+categories:
+- [读书笔记, 深入理解Java虚拟机]
 tags:
 - JVM
-- Notes
 toc: true
 ---
 

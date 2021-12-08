@@ -1,9 +1,10 @@
 ---
 title:	虚拟机类加载机制
 key: class-loader
+categories:
+- [读书笔记, 深入理解Java虚拟机]
 tags:
 - JVM
-- Notes
 toc: true
 ---
 
