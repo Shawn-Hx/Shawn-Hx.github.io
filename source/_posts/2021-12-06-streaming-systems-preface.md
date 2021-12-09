@@ -25,7 +25,7 @@ toc: true
 
 - 第一章，*Streaming 101*，介绍了流处理的基础概念，建立了一些术语，讨论了流处理系统的能力，区分了两种重要的时间概念（处理时间和事件时间），最后讨论了一些通用的数据处理模式。
 - 第二章，回答了关于数据处理的 <font color=orange>What</font>, <font color=blue>Where</font>, <font color=green>When</font> 和 <font color=red>How</font> 这四个问题，这些问题涵盖了针对无序数据的可靠流处理中的核心概念细节。
-- 第三章，*Watermarks*（水印），深度考察了时间过程的相关指标、水印是如何创建的以及如何在 pipeline 中传播的。最后考察了两个真实世界中水印的实现细节。
+- 第三章，*Watermarks*（水位线），深度考察了时间过程的相关指标、水位线是如何创建的以及如何在 pipeline 中传播的。最后考察了两个真实世界中水位线的实现细节。
 - 第四章，*Advanced Windowing*（高级窗口），讨论一些高级的窗口和触发器概念，比如处理时间窗口，会话和自定义触发器。
 
 在第一部分和第二部分之间，第五章介绍了 *Exactly-Once* 和 *Side Effects*，这一章中作者列举了实现端到端 exactly-once (or effectively-once) 处理语义所存在的挑战，介绍了三种不同的实现 exactly-once处理语义方法的实现细节，分别是：Apache Flink，Apache Spark 和 Google Cloud Dataflow。
